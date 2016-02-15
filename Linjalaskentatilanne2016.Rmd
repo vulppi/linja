@@ -184,16 +184,6 @@ leaflet(sp_data_wgs84) %>%
     opacity = 1
   )
       
-      # Add legend
-            addLegend(position = 'topleft', colors = "NA", 
-                      labels = "Isot pallukat kuvaavat vapaita linjoja, \n
-                      mitä tummempi pallon väri on, sitä enemmän linja kaipaa laskijaa, \n 
-                      viemällä hiiren pallon päälle saat lisätietoja linjasta",
-                      opacity = 0.4,
-                      title = 'Linjalaskentojen varaustilanne 2016')
-
-
-
-
+     
 ```
 
